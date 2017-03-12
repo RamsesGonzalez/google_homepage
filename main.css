@@ -1,0 +1,60 @@
+body {
+  display: block;
+  list-style-type: none;
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+nav {
+  margin: 0;
+  padding: 0 0 0 960px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav li {
+  display: inline;
+  font-size: small;
+  margin: 0 10px 0 0;
+}
+
+footer {
+  background: #f2f2f2;
+  border-top: 1px solid #f2f2f2;;
+  position: absolute;
+  width: 100%;
+}
+
+footer li{
+  display: inline;
+  font-size: small;
+  margin: 0 25px 0 25px;
+}
+
+.logo {
+  padding: 150px 0 10px 500px;
+}
+
+.search_bar {
+  padding: 10px 0 10px 380px;
+}
+
+.buttons {
+  padding: 10px 0 160px 95px;
+}
+
+.left {
+  float: left;
+  margin-left: -40px;
+}
+
+.right {
+  float: right;
+}
